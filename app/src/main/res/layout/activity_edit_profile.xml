@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".EditProfile">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Edit Profile"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/profile_image"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+
+
+
+        <EditText
+
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:hint="e.g Name"
+            />
+
+
+        <EditText
+            android:id="@+id/edit_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:hint="e.g surname"
+            />
+
+        <EditText
+            android:id="@+id/edit_department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="text"
+            android:hint="e.g Bilgisayar Mühendisliği"
+            android:minHeight="48dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_grade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="e.g 1"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+
+
+        <EditText
+            android:id="@+id/edit_distance_to_campus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="e.g 2.0"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+
+        <EditText
+            android:id="@+id/edit_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="e.g 2 ay"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/radio_looking_for_accommodation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Looking For Accommodation"
+                />
+            <RadioButton
+                android:id="@+id/radio_looking_for_roommate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Looking for Roommate"
+                />
+            <RadioButton
+                android:id="@+id/radio_not_looking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not Looking"
+                />
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="e.g example@gmail.com"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edit_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="e.g 05421233212"
+            android:inputType="phone"
+            android:minHeight="48dp" />
+
+
+
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Save" />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/take_picture_from_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Picture From Camera" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "128567588223",
+    "project_id": "evarkadasibulma",
+    "storage_bucket": "evarkadasibulma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128567588223:android:6f66e5ad20f92792c3564a",
+        "android_client_info": {
+          "package_name": "com.example.evarkadasibulma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128567588223-k1fpfh7le3janjjbk02l6iefo1g2tb9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnK3a2AMuSmPFyjhwSP4OJJsvbQdRmP84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128567588223-k1fpfh7le3janjjbk02l6iefo1g2tb9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

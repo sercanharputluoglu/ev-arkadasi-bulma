@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EvArkadasiBulma</string>
+    <string name="login_screen_text">Login</string>
+    <string name="login">Login</string>
+    <string name="all_profiles">All Profiles</string>
+    <string name="profile_page">Profile Page</string>
+    <string name="logout">Logout</string>
+</resources>

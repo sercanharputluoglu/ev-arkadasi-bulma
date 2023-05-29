@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:elevation="4dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/all_requests_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is the first text element."
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/all_requests_surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/all_requests_name"
+                android:layout_marginTop="8dp"
+                android:text="This is the second text element."
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/all_requests_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/all_requests_surname"
+                android:layout_marginTop="8dp"
+                android:text="This is the third text element."
+                android:clickable="true"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/all_requests_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/all_requests_email"
+                android:layout_marginTop="8dp"
+                android:text="This is the fourth text element."
+                android:clickable="true"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/all_requests_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is the first text element."
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+
+
+            <Button
+                android:id="@+id/accept_match_request"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Accept"
+                android:layout_below="@id/all_requests_status"
+                />
+
+            <Button
+                android:id="@+id/reject_match_request"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Reject"
+                android:layout_below="@id/accept_match_request"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
